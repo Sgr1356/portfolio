@@ -1,22 +1,90 @@
+body{
+  font-family: 'PT Serif', serif;
+}
+.fontfam{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
 .bg-black{
     background-color: black;
 }
 .image{
     width: 100%;
     height: 100%;
+    /* border-radius: 50%; */
 }
-.font-div{
-    width: 25%;
-}
+
 
 /* //////responsive///////////////// */
 
 @media only screen and (min-device-width: 1021px){
-    .font-div{
-        padding: 42.8px 0px!important;
-    
-    }
+  .font-div{
+      padding: 42.8px 0px!important;
+  
+  }
 }
+
+
+.overlay {
+  transition: transform .6s;  
+}
+.overlay:hover {
+  transform: scale(0.9); 
+}
+
+.textsmall{
+  font-size: small;
+}
+
+.blocktransform{
+  transition: transform .6s;
+  /* border-radius: 7px; */
+}
+
+.blocktransform:hover {
+  transform: scale(0.9); 
+}
+
+.font-div{
+    width: 25%;
+}
+
+.contacttransform{
+  transition: transform .6s;
+}
+.contacttransform:hover {
+  transform: scale(1.1); 
+}
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0% { transform: rotate(  0.0deg) }
+ 10% { transform: rotate(-10.0deg) }
+ 20% { transform: rotate( 12.0deg) }
+ 30% { transform: rotate(-10.0deg) }
+ 40% { transform: rotate(  9.0deg) }
+ 50% { transform: rotate(  0.0deg) }
+100% { transform: rotate(  0.0deg) }
+}
+
+
+.cardshadow{
+  box-shadow: 10px 10px 8px #888888;
+}
+.cardshadow {
+    transition: transform .6s;
+}
+
+.cardshadow:hover {
+  transform: scale(0.9); 
+}
+
 
 
 .fa:hover {
@@ -37,7 +105,7 @@
   }
   
   .fa-facebook {
-    background: #062669;
+    background: #2b4170;
     color: white;
   } 
   .fa-twitter {
@@ -54,4 +122,3 @@
   }
 
 
- 
