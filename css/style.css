@@ -273,3 +273,11 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
   background-size: cover;
 }
 
+
+/* workbutton */
+.button{
+    border-radius: 5px;
+}
+.button:hover{
+  background-color: rgb(230, 169, 177);
+}
